@@ -1,0 +1,17 @@
+/*
+SSJS Code to call the Delete Contacts API based on a Data Extension.
+*/
+
+<script language="javascript" runat="server"> 
+	Platform.Load("core","1");
+	var auth = HTTP.Post('https://zzzzzzzzzzzzzzzzz.auth.marketingcloudapis.com/v2/token/', 'application/json', '{"grant_type": "client_credentials","client_id":"xxxxxxxxxxxxxxxxxxx","client_secret":"xxxxxxxxxxxxxxxxxxxxxx","account_id": "xxxxxxxxxxx"}');
+	var authobj = Platform.Function.ParseJSON(auth.Response[0]);
+	if (authobj.access_token) {
+		var del = HTTP.Post(authobj.rest_instance_url+'contacts/v1/contacts/actions/delete?type=listReference', 'application/json', '{"deleteOperationType":"ContactAndAttributes","targetList":{"listKey":"ddddddddddddddddddddddddd","listType":{"listTypeID":3}},"deleteListWhenCompleted":false,"deleteListContentsWhenCompleted":true}', ["Authorization"], ["Bearer " + authobj.access_token]);
+		var delobj = Platform.Function.ParseJSON(del.Response[0]);
+		if (delobj.hasErrors == false) {
+			var de = DataExtension.Init("eeeeeeeeeeeeeeeeeeeeeeee");
+			de.Rows.Add({ResponseDateTime:delobj.responseDateTime,RowCount:delobj.targetListInformation.rowCount});
+		}
+	};
+</script>
