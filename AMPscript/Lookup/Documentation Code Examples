@@ -1,0 +1,8 @@
+Inline: Output = %%=Lookup('PostalCode','City','PostalCode',46016,'State','Indiana')=%%
+<br><br>
+
+Code Block:
+%%[
+SET @lookup = Lookup('PostalCode','City','PostalCode',46016,'State','Indiana')
+]%%
+Code Block Output: %%=v(@lookup)=%%
