@@ -1,0 +1,11 @@
+Test 1: <br>
+%%=Lookup("Sample-Trailhead_Characters","EmailAddress","Firstname","Astro")=%%
+<br><br>
+
+Test 2: <br>
+%%[
+SET @name = "Astro"
+SET @email = Lookup("Sample-Trailhead_Characters","EmailAddress","Firstname",@name)
+]%%
+Astro's Email: %%=v(@email)=%%
+<br><br>
