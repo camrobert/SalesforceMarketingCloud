@@ -1,0 +1,39 @@
+<script runat="server">
+  Platform.Load("Core","1.1.5");
+//=============== CONFIG ===================
+  var dename = "Your DE name here"; //The Name of the DE you want to focus on
+  var authEndpoint = 'https://xxxxxxxxxxxxxxx.auth.marketingcloudapis.com/'; //The API Integration's "Authentication Base URI" from Marketing Cloud
+  var clientid = "yyyyyyyyyyyyyyy"; //The API Integration's "Client Id" from Marketing Cloud
+  var clientsecret = "zzzzzzzzzzzzzz"; //The API Integration's "Client Secret" from Marketing Cloud
+//============== END CONFIG =================
+  
+  try{
+    var prox = new Script.Util.WSProxy();
+    //prox.setClientId({"ID": Platform.Function.AuthenticatedMemberID(),"UserID": Platform.Function.AuthenticatedEmployeeID()});
+    var accessTokenRequest = HTTP.Post(authEndpoint+'v2/token', 'application/json', Stringify({client_id: clientid, client_secret: clientsecret, grant_type: "client_credentials"}));
+    if(accessTokenRequest.StatusCode == 200) {
+      var tokenResponse = Platform.Function.ParseJSON(accessTokenRequest.Response[0]);
+      var accessToken = tokenResponse.access_token;
+      var resturl = tokenResponse.rest_instance_url;
+    }    
+    var getquerys = prox.retrieve("QueryDefinition",["Name","ObjectID","DataExtensionTarget.Name"], {Property:"DataExtensionTarget.Name",SimpleOperator:"equals",Value:dename});
+    Write("Searching for Queries & Automations that alter ["+dename+"]<br><br>");
+    for (q = 0; q < getquerys.Results.length; q++) {
+      var Activity = prox.retrieve("Activity",["Name","Definition.ObjectID","ObjectID","Program.ObjectID"], {Property:"Name",SimpleOperator:"Equals",Value:getquerys.Results[q].Name});
+      for (a = 0; a < Activity.Results.length; a++) {
+        var content = Platform.Function.HTTPGet(resturl+'automation/v1/automations/'+Activity.Results[a].Program.ObjectID,false,0,['Authorization'],['Bearer '+accessToken],status);
+        var json = Platform.Function.ParseJSON(content);
+        for (s = 0; s < json.steps.length; s++) {
+          for (ac = 0; ac < json.steps[s].activities.length; ac++) {
+            if (json.steps[s].activities[ac].activityObjectId == getquerys.Results[q].ObjectID) {
+              Write("SQL Query called <b>["+json.steps[s].activities[ac].name+"]</b> found on step "+json.steps[s].step+" in Automation <b>["+json.name+"]</b><br>");
+            }
+          }
+        }
+      }
+    }
+  }
+  catch(error) {
+    Write('Message: '+ error);
+  }
+</script>
