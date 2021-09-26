@@ -1,0 +1,17 @@
+<script runat="server">
+Platform.Load("Core","1");
+try{
+  var url = 'https://hooks.slack.com/services/xxxxxxxx/yyyyyyyyyyyy/zzzzzzzzzzzzzzzz';
+  var contentType = 'text/plain';
+  var payload = '{"text":"Now this is SSJS!"}';
+  var headerNames = [];
+  var headerValues = [];
+  var result = HTTP.Post(url, contentType, payload, headerNames, headerValues);
+
+  Write(result.StatusCode + '<br>');
+  Write(result.Response);
+} 
+catch(error) {
+Write('Message: '+ error);
+}
+</script>
