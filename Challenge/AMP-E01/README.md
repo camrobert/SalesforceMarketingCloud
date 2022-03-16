@@ -13,6 +13,26 @@ Sample data is provided to ensure you can follow the tasks and reproduce the req
 4. Follow the instructions provided in the AMP-E01 brief, solving each task in order.<br/>
 5. If you get stuck and need help, you can watch me solve each of these tasks in this video: [AMPscript Exercise AMP-E01 - IF Statements 1](https://youtube.com/cameronrobert)<br/>
 
+### Sample Data Extension
+![AMP-E01 Sample Data Extension](AMP-E01.png)
+
+**Field List:**
+- SubscriberKey
+- Firstname
+- Surname
+- PreferredName
+- EmailAddress
+- JoinAgeDays
+- NextReviewDays
+- PointsYTD
+- SpendYTD
+- PurchasesYTD
+- LastPurchaseDays
+- FreeShipping
+- Marketing_FlashSales
+- Marketing_Campaigns
+<br>
+
 ### File List
 - Video: [Introduction to If Statements in AMPscript](https://youtube.com/cameronrobert)
 - Video: [AMPscript Exercise AMP-E01 - IF Statements 1](https://youtube.com/cameronrobert)
