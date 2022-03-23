@@ -1,0 +1,35 @@
+<script runat="server">
+  Platform.Load("Core","1");
+  /*==== Config ====*/
+  var app_apiappid = "xxxxxxxxxxx";                       //AppID from the App Credentials section in the Slack API Basic Information
+  var app_VerificationToken = "yyyyyyyyyyyyyyyyyyyyyyyy"; //Verification Token from the App Credentials section in the Slack API Basic Information
+  var app_channel_name = ["slack-channel-name"];          //Array of Authorised Slack Channel Names (text, comma seperated) exactly as shown in Slack
+  var logit_de = DataExtension.Init('EXTERNAL KEY');      //Log DE Key
+  
+  /*==== SETUP ====*/
+  var post = Platform.Request.GetPostData();
+  var json = Platform.Function.ParseJSON(post);
+  var posttext = Platform.Request.GetFormField('text');
+  var inbound_token = Platform.Request.GetFormField('token');
+  var inbound_api_app_id = Platform.Request.GetFormField('api_app_id');
+  var inbound_channel_name = Platform.Request.GetFormField('channel_name');
+  logit("Inbound Post:"+Stringify(json));
+
+  /*==== Verification ====*/
+  if ((inbound_api_app_id == app_apiappid) && (inbound_token == app_VerificationToken) && (app_channel_name.toString().indexOf(inbound_channel_name) >= 0)) {
+    //Success
+    //Do Function Here
+    var response_json = { "blocks": [ { "type": "section", "text": { "type": "mrkdwn", "text": "This is a section block :ghost: *this is bold*, and ~this is crossed out~, and <https://google.com|this is a link>" } } ] };
+    
+  } else {
+    //Unauthorised
+    var response_json = { "blocks": [ { "type": "section", "text": { "type": "mrkdwn", "text": "*Not Authorised* :ghost:\n Contact: Firstname Lastname" } } ] };
+  logit("Unauthorised Attempt:"+Stringify(json));
+  }
+
+  Write(Stringify(response_json));
+
+  function logit(message) {
+    logit_de.Rows.Add({"Text":message});
+  };
+</script>
