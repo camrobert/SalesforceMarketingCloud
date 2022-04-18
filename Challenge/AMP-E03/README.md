@@ -12,7 +12,7 @@ After completing this pair of exercises you will have an understanding of how to
 3. Follow the instructions provided in the brief, solving each task in order.<br/>
 4. Once you've completed Part 1, download Part 2 here: [AMP-E03b Lookups & Loops 2](AMP-E03b%20Lookups%20&%20Loops%202.pdf) <br/>
 5. Once again follow the instructions provided in the brief, solving each task in order.<br/>
-6. If you get stuck and need help, you can watch me solve each of these tasks in these videos: [AMPscript Exercise AMP-E03a - Lookups & Loops 2](https://www.youtube.com/c/CameronRobert) & [AMPscript Exercise AMP-E03b - Lookups & Loops 1](https://www.youtube.com/c/CameronRobert)<br/>
+6. If you get stuck and need help, you can watch me solve each of these tasks in these videos: [AMPscript Exercise AMP-E03a - Lookups & Loops 2](https://youtu.be/7Hi01EjGEKk) & [AMPscript Exercise AMP-E03b - Lookups & Loops 1](https://www.youtube.com/c/CameronRobert)<br/>
 
 
 ### File List
@@ -23,5 +23,5 @@ After completing this pair of exercises you will have an understanding of how to
 - Exercise Brief 1: [AMP-E03a Lookups & Loops 1](AMP-E03a%20Lookups%20&%20Loops%201.pdf)
 - Exercise Brief 2: [AMP-E03b Lookups & Loops 2](AMP-E03b%20Lookups%20&%20Loops%202.pdf)
 
-- Video 1: [AMPscript Exercise AMP-E03a - Lookups & Loops 1](https://www.youtube.com/c/CameronRobert)
+- Video 1: [AMPscript Exercise AMP-E03a - Lookups & Loops 1](https://youtu.be/7Hi01EjGEKk)
 - Video 2: [AMPscript Exercise AMP-E03b - Lookups & Loops 2](https://www.youtube.com/c/CameronRobert)
