@@ -1,0 +1,34 @@
+<script runat="server">
+/*
+Undocumented REST API - Use at your own risk
+StackExchange Link: https://salesforce.stackexchange.com/questions/152409/marketing-cloud-rest-api-get-method-to-data-extensions
+*/
+Platform.Load("Core","1");
+try {
+    //Config
+    var authurl = "https://xxxxxxxxxxxx.auth.marketingcloudapis.com/";
+    var client_id = "xxxxxxxxxxx";
+    var client_secret = "xxxxxxxxxxx";
+    
+    var result = HTTP.Post(authurl+"v2/token", 'application/json', Stringify({"grant_type": "client_credentials","client_id": client_id,"client_secret": client_secret}));
+    if (result.StatusCode == 200) {
+    var responseJson = Platform.Function.ParseJSON(result.Response[0]);
+    var accessToken = responseJson.access_token;
+    var restUrl = responseJson.rest_instance_url;
+    }
+    else {
+    throw new Error("Error fetching access token");
+    }
+    //Success
+    //Write(accessToken+"<br>"); 
+
+  var headerNames = ["Authorization"];
+  var headerValues = ["Bearer "+accessToken];
+  var response = HTTP.Get(restUrl+"data/v1/customobjectdata/key/xxxxxxxx/rowset", headerNames, headerValues);
+  Write(response.Content);
+                      
+}
+catch(error) {
+    Write('Message: '+ error);
+}
+</script>
