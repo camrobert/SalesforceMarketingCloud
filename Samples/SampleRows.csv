@@ -1,0 +1,14 @@
+ID,Firstname,Role,EmailAddress,JoinDate,EmailOptIn
+SampleRows_005db290cad8e7141d,Astro,Tanuki,astro@salesforce.com,27/01/2021 0:00,TRUE
+SampleRows_005f95ea6f695f9498,Einstein,Resident Genius,einstein@salesforce.com,26/01/2021 0:00,TRUE
+SampleRows_005f92bcaa14fca42e,Appy,Popcat,appy@salesforce.com,8/02/2021 0:00,TRUE
+SampleRows_00590782vdt01us936,Brandy,Marketer,Brandy@salesforce.com,24/01/2021 0:00,TRUE
+SampleRows_0058c374b32e4274e1,Codey,Bear,codey@salesforce.com,29/01/2021 0:00,TRUE
+SampleRows_005982d8661d8e5459,Cloudy,Goat,cloudy@salesforce.com,28/01/2021 0:00,FALSE
+SampleRows_00590513fdc01ce416,Blaze,Wolf,blaze@salesforce.com,28/01/2021 0:00,TRUE
+SampleRows_0051b2043a398bc4ff,Hootie,Owl,hootie@salesforce.com,26/01/2021 0:00,TRUE
+SampleRows_0057c0dea33da5f4b3,Earnie,Badger,earnie@salesforce.com,30/01/2021 0:00,FALSE
+SampleRows_005c4eb8fcf64bb4e1,Koa,Dog,koa@salesforce.com,5/02/2021 0:00,TRUE
+SampleRows_0059866904312a24e2,Max,Mule,max@salesforce.com,8/02/2021 0:00,FALSE
+SampleRows_005a254255538ef4f0,Meta,Moose,meta@salesforce.com,1/02/2021 0:00,FALSE
+SampleRows_0057430a45cf76048f,Ruth,Salesforce Architect,ruth@salesforce.com,27/01/2021 0:00,TRUE
