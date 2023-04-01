@@ -1,0 +1,10 @@
+ID,Firstname,AttendedEvent,LuckyDoorPrize,VoucherCode
+SampleRows_005db290cad8e7141d,Astro,TRUE,25,f4d352be-1e94-4905-b0e1-44678fc9aa67
+SampleRows_005f95ea6f695f9498,Einstein,TRUE,10,106254d0-e821-4003-99ac-9f3ddb976143
+SampleRows_005f92bcaa14fca42e,Appy,FALSE,,
+SampleRows_00590782vdt01us936,Brandy,TRUE,50,ddd5951a-2bb4-48c5-ae64-c1c320f64bd5
+SampleRows_005982d8661d8e5459,Cloudy,FALSE,,
+SampleRows_00590513fdc01ce416,Blaze,FALSE,,
+SampleRows_0057c0dea33da5f4b3,Earnie,TRUE,25,53f85479-42b0-4052-a4e7-84a1ce1413af
+SampleRows_0059866904312a24e2,Max,TRUE,10,c7731d6b-492b-46a6-a0d1-0428f010ffa9
+SampleRows_005a254255538ef4f0,Meta,TRUE,10,22276416-206b-4589-8cec-7a9e37b6ad55
