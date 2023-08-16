@@ -1,0 +1,101 @@
+SKU,Name,Blurb,PublicationDate,RetailPrice,SalePrice,Rating
+101,The Adventures of AI Bot,Join AI Bot on an exciting journey through the digital world.,2019-08-23,29.99,24.99,4.5
+102,The SQL Mastermind,Unlock the secrets of SQL with this comprehensive guide.,2019-01-16,49.99,39.99,4.8
+103,Data Science Unleashed,Discover the power of data science in various industries.,2019-02-16,39.99,34.99,4.7
+104,Coding Chronicles,Embark on a coding adventure with real-world projects.,2018-04-03,44.99,39.99,4.6
+105,Cybersecurity 101,Learn essential cybersecurity concepts to protect your digital life.,2017-02-24,34.99,29.99,4.4
+106,The Art of Design,Explore the principles of design and unleash your creativity.,2019-04-27,37.99,32.99,4.9
+107,History's Mysteries,Unravel the unsolved mysteries of historical events.,2017-07-02,28.99,24.99,4.2
+108,The Great Inventions,Discover the fascinating stories behind groundbreaking inventions.,2022-02-21,33.99,28.99,4.3
+109,The Culinary Adventure,Embark on a mouthwatering journey through the world's cuisines.,2021-03-01,54.99,49.99,4.7
+110,The Green Thumb,Master the art of gardening and create your lush paradise.,2020-05-05,26.99,22.99,4.6
+111,The Cosmic Odyssey,Explore the wonders of the universe and beyond.,2017-03-20,39.99,34.99,4.8
+112,Poetry Anthology,Indulge in the beauty of words with this captivating poetry collection.,2022-06-24,21.99,18.99,4.5
+113,The Mindful Journey,Embark on a path of self-discovery and inner peace.,2020-12-04,29.99,24.99,4.7
+114,The Fitness Guru,Achieve your fitness goals with this ultimate workout guide.,2017-02-12,34.99,29.99,4.9
+115,The Puzzle Master,Challenge your mind with a collection of brain-teasing puzzles.,2018-09-18,27.99,22.99,4.6
+116,The Art of Meditation,Learn the ancient art of meditation for a calmer mind and body.,2017-01-26,19.99,16.99,4.4
+117,Wildlife Safari,Embark on an adventure through the world's wildest habitats.,2022-01-11,44.99,39.99,4.8
+118,The Financial Guru,Master the art of personal finance and build your wealth.,2019-09-04,49.99,44.99,4.7
+119,The Dreamer's Guide,Unlock the secrets of dreams and tap into your subconscious.,2018-05-20,23.99,19.99,4.3
+120,The DIY Handbook,Learn essential DIY skills for everyday home improvement.,2017-01-07,28.99,24.99,4.5
+121,The Fashionista's Closet,Discover the world of fashion and create your signature style.,2020-08-07,37.99,32.99,4.6
+122,The Star Chef,Cook like a pro with this collection of gourmet recipes.,2017-08-28,34.99,29.99,4.9
+123,The Art of Origami,Master the ancient art of origami and create stunning paper creations.,2019-01-27,21.99,18.99,4.2
+124,The World of Whiskies,Embark on a journey through the finest whiskies from around the world.,2021-06-03,54.99,49.99,4.7
+125,The Language Explorer,Learn the basics of multiple languages and become a language connoisseur.,2019-01-01,39.99,34.99,4.4
+126,The Art of Photography,Capture life's moments with stunning photography.,2018-01-12,39.99,34.99,4.6
+127,The Zen Garden,Find tranquility and peace in creating your own Zen garden.,2020-01-28,24.99,19.99,4.5
+128,The Mystery Mansion,Solve the enigmatic puzzles of the haunted Mystery Mansion.,2016-12-22,29.99,24.99,4.3
+129,The Health Nut,Embark on a journey to a healthier and happier lifestyle.,2020-07-02,34.99,29.99,4.8
+130,The World Atlas,Explore the world's wonders through detailed maps and facts.,2019-01-25,49.99,44.99,4.7
+131,The Art of Calligraphy,Master the art of beautiful writing with calligraphy.,2021-02-22,21.99,16.99,4.4
+132,The Sci-Fi Collection,Immerse yourself in a collection of mind-bending sci-fi stories.,2021-07-23,37.99,32.99,4.9
+133,The Chess Master,Learn the strategies and tactics of a chess grandmaster.,2020-08-28,23.99,18.99,4.6
+134,The Haiku Anthology,Find beauty in simplicity with this Haiku poetry anthology.,2018-11-13,27.99,22.99,4.5
+135,The DIY Electronics,Build your own electronic gadgets and devices.,2019-06-22,44.99,39.99,4.8
+136,The Great Barrier Reef,Dive into the colorful world of the Great Barrier Reef.,2019-11-04,34.99,29.99,4.7
+137,The Master Linguist,Unlock the secrets of language and communication.,2019-01-29,29.99,24.99,4.4
+138,The Mind-Bending Illusions,Explore the captivating world of optical illusions.,2020-06-14,39.99,34.99,4.8
+139,The Baking Artistry,Delight your taste buds with mouthwatering baked goods.,2019-11-11,21.99,16.99,4.9
+140,The Time Traveler's Guide,Embark on an exciting journey through time and history.,2020-03-30,26.99,22.99,4.5
+141,The Artist's Journey,Discover your artistic potential and unleash your creativity.,2020-09-26,37.99,32.99,4.7
+142,The Urban Explorer,Venture into the heart of cities and discover hidden gems.,2017-01-26,34.99,29.99,4.6
+143,The Mindful Chef,Cook with mindfulness and savor every flavor.,2020-02-21,24.99,19.99,4.4
+144,The Adventure Handbook,Experience thrilling adventures in the great outdoors.,2016-10-19,44.99,39.99,4.8
+145,The Entrepreneur's Playbook,Build a successful business with this essential playbook.,2021-08-29,49.99,44.99,4.7
+146,The Haunted Tales,Embark on a spine-chilling journey with haunted tales.,2021-05-05,29.99,24.99,4.3
+147,The Yoga Guide,Achieve harmony of mind and body through yoga.,2020-08-12,27.99,22.99,4.5
+148,The Universe Within,Explore the mysteries of the human body and mind.,2019-10-13,39.99,34.99,4.6
+149,The Fantasy Realm,Step into the enchanting world of magical creatures.,2017-04-10,34.99,29.99,4.9
+150,The Game Developer's Handbook,Create your own games with this comprehensive guide.,2018-11-05,21.99,16.99,4.2
+151,The Art of Mindfulness,Find peace and serenity in the present moment.,2020-09-27,23.99,18.99,4.5
+152,The Space Odyssey,Embark on a thrilling space adventure to distant galaxies.,2017-01-04,37.99,32.99,4.7
+153,The Gardener's Guide,Grow a stunning garden with expert gardening tips.,2018-03-05,29.99,24.99,4.6
+154,The Gourmet Traveller,Explore the world's cuisines through exotic recipes.,2021-08-06,34.99,29.99,4.8
+155,The Science of Psychology,Unravel the complexities of the human mind.,2016-11-05,39.99,34.99,4.7
+156,The Art of Pottery,Discover the art of shaping clay into beautiful pottery.,2021-06-27,21.99,16.99,4.4
+157,The Detective's Handbook,Solve mysteries and catch criminals like a detective.,2019-01-22,26.99,22.99,4.3
+158,The Dream Weaver,Craft beautiful dreams with the power of storytelling.,2020-09-05,44.99,39.99,4.9
+159,The Quantum Realm,Explore the bizarre world of quantum physics.,2021-06-29,49.99,44.99,4.8
+160,The Art of Paper Crafts,Create delightful paper crafts for every occasion.,2018-11-19,29.99,24.99,4.6
+161,The History of Art,Journey through the evolution of art across the ages.,2017-12-25,34.99,29.99,4.5
+162,The Alchemist's Brew,Unlock the secrets of potion-making and alchemy.,2021-05-28,39.99,34.99,4.7
+163,The Mindfulness Journal,Cultivate mindfulness through daily journaling.,2021-09-17,23.99,18.99,4.6
+164,The Science of Astronomy,Discover the wonders of the cosmos and beyond.,2018-06-04,37.99,32.99,4.5
+165,The DIY Woodworker,Craft beautiful wooden creations with woodworking skills.,2016-11-03,27.99,22.99,4.4
+166,The Culinary Adventures II,Continue your culinary journey with more delicious recipes.,2020-04-12,44.99,39.99,4.7
+167,The Language Master,Learn to speak fluently in multiple languages.,2022-01-30,29.99,24.99,4.8
+168,The Mindful Parent,Raise happy and mindful children with conscious parenting.,2016-05-23,23.99,18.99,4.5
+169,The Ancient Civilization,Unearth the mysteries of long-lost ancient civilizations.,2020-09-12,34.99,29.99,4.7
+170,The Survivalist's Guide,Prepare for any situation with essential survival skills.,2021-08-30,21.99,16.99,4.4
+171,The Science of Genetics,Explore the fascinating world of genes and heredity.,2018-08-24,26.99,22.99,4.5
+172,The Fantasy Quest,Embark on a grand adventure in a fantasy world.,2016-09-12,39.99,34.99,4.6
+173,The Cocktail Connoisseur,Master the art of mixology and craft delightful cocktails.,2020-09-11,44.99,39.99,4.8
+174,The Art of Flower Arranging,Create stunning floral displays with floral artistry.,2018-01-09,34.99,29.99,4.7
+175,The Code Breaker's Manual,Solve intricate puzzles and crack secret codes.,2017-12-30,29.99,24.99,4.6
+176,The Creative Writer's Handbook,Unleash your creativity with the power of words.,2021-05-14,23.99,18.99,4.4
+177,The Marine Explorer,Dive into the depths of the ocean and discover marine life.,2019-05-19,37.99,32.99,4.6
+178,The Sci-Fi Adventure,Explore new worlds and civilizations in thrilling sci-fi stories.,2019-06-11,27.99,22.99,4.8
+179,The Art of Feng Shui,Create harmony and balance in your living spaces.,2019-02-13,44.99,39.99,4.5
+180,The World of Birds,Discover the diverse and beautiful world of birds.,2017-08-31,49.99,44.99,4.7
+181,The Art of Sushi,Master the art of making delicious and beautiful sushi.,2021-06-07,21.99,16.99,4.9
+182,The Cosmic Journey,Embark on a journey through the cosmos and the universe.,2020-07-22,29.99,24.99,4.5
+183,The Culinary Adventures III,Continue your gastronomic journey with more delectable recipes.,2016-08-23,34.99,29.99,4.8
+184,The Martial Artist,Train in various martial arts and become a true warrior.,2017-04-15,23.99,18.99,4.6
+185,The Art of Mosaics,Create stunning mosaic artworks with precision and artistry.,2017-11-03,37.99,32.99,4.5
+186,The Ethical Hacker,Learn ethical hacking and cybersecurity principles.,2018-08-15,26.99,22.99,4.7
+187,The Mythical Creatures,Explore the world of mythical and legendary creatures.,2020-06-04,39.99,34.99,4.4
+188,The Adventure Photographer,Capture thrilling adventures and epic landscapes.,2019-09-22,44.99,39.99,4.6
+189,The Space Exploration,Journey through the history of space exploration.,2021-02-28,34.99,29.99,4.9
+190,The Art of Potions,Brew magical potions and elixirs with ancient recipes.,2018-03-23,21.99,16.99,4.7
+191,The AI Revolution,Discover the impact of artificial intelligence on society.,2021-09-28,29.99,24.99,4.8
+192,The Mountain Climber's Guide,Conquer the world's highest peaks with expert tips.,2019-11-06,23.99,18.99,4.6
+193,The Virtual Reality Experience,Immerse yourself in the world of virtual reality.,2020-07-30,37.99,32.99,4.5
+194,The Baking Artistry II,Continue your baking journey with more delightful recipes.,2019-03-04,34.99,29.99,4.7
+195,The Scientist's Handbook,Discover the wonders of science and conduct experiments.,2020-10-08,39.99,34.99,4.8
+196,The Art of Stargazing,Explore the celestial wonders with amateur astronomy.,2019-07-17,21.99,16.99,4.4
+197,The Haunted Tales II,Experience more spine-chilling horror with haunted tales.,2017-06-22,26.99,22.99,4.6
+198,The Code Master,Solve complex codes and puzzles with programming skills.,2019-03-18,44.99,39.99,4.5
+199,The Naturalist's Guide,Observe and understand the wonders of nature.,2020-01-16,49.99,44.99,4.6
+200,The Art of Origami II,Create intricate paper artworks with advanced origami.,2020-04-05,23.99,18.99,4.7

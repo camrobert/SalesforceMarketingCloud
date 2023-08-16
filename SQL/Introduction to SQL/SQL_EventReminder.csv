@@ -1,0 +1,38 @@
+CustomerID,Reminder_Channel,Reminder_Date,Reminder_Status,Attending
+a91cf352,Email,2023-08-01,Responded,TRUE
+a91ca618,Email,2023-08-01,Responded,TRUE
+a91cf460,Email,2023-08-01,Responded,TRUE
+a91cedda,Email,2023-08-01,Responded,TRUE
+a91cf744,Email,2023-08-01,Responded,TRUE
+a91cff46,Email,2023-08-01,Responded,TRUE
+a91d05cc,Email,2023-08-01,Responded,TRUE
+a91cfd48,Email,2023-08-01,Responded,TRUE
+a91cfc44,Email,2023-08-01,Responded,TRUE
+a91ceab0,Email,2023-08-01,Responded,TRUE
+a91d0158,Email,2023-08-01,Sent,
+a91cdc32,Email,2023-08-01,Sent,
+a91ce222,Email,2023-08-01,Sent,
+a91cc0bc,Email,2023-08-01,Responded,TRUE
+a91cbf0e,Email,2023-08-01,Responded,FALSE
+a91cd43a,Email,2023-08-01,Responded,FALSE
+a91cf550,Email,2023-08-01,Sent,
+a91ce0d8,Email,2023-08-01,Sent,
+a91cb734,Email,2023-08-01,Responded,FALSE
+a91d005e,Email,2023-08-01,Sent,
+a91ccb3e,Email,2023-08-01,Sent,
+a91d08b0,Email,2023-08-01,Responded,FALSE
+a91ce358,Email,2023-08-01,Responded,FALSE
+a91cf0dc,Email,2023-08-01,Responded,FALSE
+a91cefce,Email,2023-08-01,Sent,
+a91d031a,In Person,2023-08-03,Responded,TRUE
+a91cfb22,In Person,2023-08-03,Sent,
+a91cb0b8,In Person,2023-08-04,Responded,TRUE
+a91d0428,In Person,2023-08-04,Responded,TRUE
+a91cbca2,In Person,2023-08-05,Responded,FALSE
+a91cbde2,In Person,2023-08-05,Responded,FALSE
+a91ce4a2,Phone,2023-08-02,Responded,TRUE
+a91cbb3a,Phone,2023-08-02,Responded,TRUE
+a91cf64a,Phone,2023-08-02,Responded,TRUE
+a91cd2aa,Phone,2023-08-02,Responded,TRUE
+a91cdf66,Phone,2023-08-03,Sent,
+a91ce952,Phone,2023-08-03,Responded,FALSE
