@@ -1,0 +1,948 @@
+{
+    "appVersion": "244.0.55",
+    "id": "lfggyy2s6h",
+    "name": "Introduction to SQL in SFMC",
+    "version": 1,
+    "modelVersion": "4",
+    "references": {
+        "dataExtensions/25f82ab2-e833-ee11-ba50-d4f5ef3de2b6": [
+            {
+                "identifier": "categories/2236432",
+                "relationship": "required"
+            }
+        ],
+        "dataExtensions/376c9304-e833-ee11-ba50-d4f5ef3de2b6": [
+            {
+                "identifier": "categories/2236432",
+                "relationship": "required"
+            }
+        ],
+        "dataExtensions/10a96358-e833-ee11-ba50-d4f5ef3de2b6": [
+            {
+                "identifier": "categories/2236432",
+                "relationship": "required"
+            }
+        ],
+        "dataExtensions/918336a0-e833-ee11-ba50-d4f5ef3de2b6": [
+            {
+                "identifier": "categories/2236432",
+                "relationship": "required"
+            }
+        ],
+        "dataExtensions/0b0e9dd5-ed33-ee11-ba50-d4f5ef3de2b6": [
+            {
+                "identifier": "categories/2236432",
+                "relationship": "required"
+            }
+        ],
+        "dataExtensions/85bd35df-e733-ee11-ba50-d4f5ef3de2b6": [
+            {
+                "identifier": "categories/2236432",
+                "relationship": "required"
+            }
+        ],
+        "dataExtensions/48860fd6-e833-ee11-ba50-d4f5ef3de2b6": [
+            {
+                "identifier": "categories/2236432",
+                "relationship": "required"
+            }
+        ],
+        "dataExtensions/07844094-e833-ee11-ba50-d4f5ef3de2b6": [
+            {
+                "identifier": "categories/2236432",
+                "relationship": "required"
+            }
+        ],
+        "categories/2236432": [
+            {
+                "identifier": "categories/2011591",
+                "relationship": "required"
+            }
+        ],
+        "categories/2011591": [
+            {
+                "identifier": "categories/1882027",
+                "relationship": "required"
+            }
+        ],
+        "categories/1882027": []
+    },
+    "input": [],
+    "config": {
+        "preserveCategories": true,
+        "storeImagesAsReferences": false
+    },
+    "entities": {
+        "assets": {},
+        "attributeGroups": {},
+        "attributeRelationships": {},
+        "attributeSets": {},
+        "automations": {},
+        "categories": {
+            "1882027": {
+                "issues": [],
+                "originID": "1882027",
+                "originEID": "mc6lj9dkf1hyy8t0j6b-9h0m9k4m",
+                "data": {
+                    "description": "",
+                    "categoryType": "dataextension",
+                    "parentId": 0,
+                    "name": "Data Extensions",
+                    "editable": 0,
+                    "extendable": 1
+                }
+            },
+            "2011591": {
+                "issues": [],
+                "originID": "2011591",
+                "originEID": "mc6lj9dkf1hyy8t0j6b-9h0m9k4m",
+                "data": {
+                    "description": "",
+                    "categoryType": "dataextension",
+                    "parentId": "{{mcpm#/entities/categories/1882027/data/id}}",
+                    "name": "Cameron Robert",
+                    "editable": 1,
+                    "extendable": 1
+                }
+            },
+            "2236432": {
+                "issues": [],
+                "originID": "2236432",
+                "originEID": "mc6lj9dkf1hyy8t0j6b-9h0m9k4m",
+                "data": {
+                    "description": "",
+                    "categoryType": "dataextension",
+                    "parentId": "{{mcpm#/entities/categories/2011591/data/id}}",
+                    "name": "Introduction to SQL in SFMC",
+                    "editable": 1,
+                    "extendable": 1
+                }
+            }
+        },
+        "cloudPageCollections": {},
+        "codeResources": {},
+        "dataExtensions": {
+            "25f82ab2-e833-ee11-ba50-d4f5ef3de2b6": {
+                "issues": [],
+                "originID": "25f82ab2-e833-ee11-ba50-d4f5ef3de2b6",
+                "originEID": "mc6lj9dkf1hyy8t0j6b-9h0m9k4m",
+                "data": {
+                    "categoryId": "{{mcpm#/entities/categories/2236432/data/id}}",
+                    "dataRetentionProperties": {
+                        "isDeleteAtEndOfRetentionPeriod": false,
+                        "isResetRetentionPeriodOnImport": false,
+                        "isRowBasedRetention": false,
+                        "rowBasedThreshold": 500000000
+                    },
+                    "description": "",
+                    "isFieldAdditionAllowed": true,
+                    "isFieldModificationAllowed": true,
+                    "isObjectDeletable": true,
+                    "isSendable": false,
+                    "isTestable": false,
+                    "name": "SQL_Authors",
+                    "fields": [
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": true,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "AuthorID",
+                            "ordinal": 0,
+                            "type": "Number"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 150,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Firstname",
+                            "ordinal": 1,
+                            "type": "Text"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 150,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Surname",
+                            "ordinal": 2,
+                            "type": "Text"
+                        }
+                    ]
+                }
+            },
+            "376c9304-e833-ee11-ba50-d4f5ef3de2b6": {
+                "issues": [],
+                "originID": "376c9304-e833-ee11-ba50-d4f5ef3de2b6",
+                "originEID": "mc6lj9dkf1hyy8t0j6b-9h0m9k4m",
+                "data": {
+                    "categoryId": "{{mcpm#/entities/categories/2236432/data/id}}",
+                    "dataRetentionProperties": {
+                        "isDeleteAtEndOfRetentionPeriod": false,
+                        "isResetRetentionPeriodOnImport": false,
+                        "isRowBasedRetention": false,
+                        "rowBasedThreshold": 500000000
+                    },
+                    "description": "",
+                    "isFieldAdditionAllowed": true,
+                    "isFieldModificationAllowed": true,
+                    "isObjectDeletable": true,
+                    "isSendable": false,
+                    "isTestable": false,
+                    "name": "SQL_Invoices",
+                    "fields": [
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": true,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "InvoiceID",
+                            "ordinal": 0,
+                            "type": "Number"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 50,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "CustomerID",
+                            "ordinal": 1,
+                            "type": "Text"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 12,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "TotalValue",
+                            "ordinal": 2,
+                            "scale": 2,
+                            "type": "Decimal"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "InvoiceDate",
+                            "ordinal": 3,
+                            "type": "Date"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "ItemCount",
+                            "ordinal": 4,
+                            "type": "Number"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 50,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Status",
+                            "ordinal": 5,
+                            "type": "Text"
+                        }
+                    ]
+                }
+            },
+            "10a96358-e833-ee11-ba50-d4f5ef3de2b6": {
+                "issues": [],
+                "originID": "10a96358-e833-ee11-ba50-d4f5ef3de2b6",
+                "originEID": "mc6lj9dkf1hyy8t0j6b-9h0m9k4m",
+                "data": {
+                    "categoryId": "{{mcpm#/entities/categories/2236432/data/id}}",
+                    "dataRetentionProperties": {
+                        "isDeleteAtEndOfRetentionPeriod": false,
+                        "isResetRetentionPeriodOnImport": false,
+                        "isRowBasedRetention": false,
+                        "rowBasedThreshold": 500000000
+                    },
+                    "description": "",
+                    "isFieldAdditionAllowed": true,
+                    "isFieldModificationAllowed": true,
+                    "isObjectDeletable": true,
+                    "isSendable": false,
+                    "isTestable": false,
+                    "name": "SQL_Books",
+                    "fields": [
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": true,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "SKU",
+                            "ordinal": 0,
+                            "type": "Number"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 250,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Name",
+                            "ordinal": 1,
+                            "type": "Text"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 1000,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Blurb",
+                            "ordinal": 2,
+                            "type": "Text"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "PublicationDate",
+                            "ordinal": 3,
+                            "type": "Date"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 12,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "RetailPrice",
+                            "ordinal": 4,
+                            "scale": 2,
+                            "type": "Decimal"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 12,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "SalePrice",
+                            "ordinal": 5,
+                            "scale": 2,
+                            "type": "Decimal"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 12,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Rating",
+                            "ordinal": 6,
+                            "scale": 2,
+                            "type": "Decimal"
+                        }
+                    ]
+                }
+            },
+            "918336a0-e833-ee11-ba50-d4f5ef3de2b6": {
+                "issues": [],
+                "originID": "918336a0-e833-ee11-ba50-d4f5ef3de2b6",
+                "originEID": "mc6lj9dkf1hyy8t0j6b-9h0m9k4m",
+                "data": {
+                    "categoryId": "{{mcpm#/entities/categories/2236432/data/id}}",
+                    "dataRetentionProperties": {
+                        "isDeleteAtEndOfRetentionPeriod": false,
+                        "isResetRetentionPeriodOnImport": false,
+                        "isRowBasedRetention": false,
+                        "rowBasedThreshold": 500000000
+                    },
+                    "description": "",
+                    "isFieldAdditionAllowed": true,
+                    "isFieldModificationAllowed": true,
+                    "isObjectDeletable": true,
+                    "isSendable": false,
+                    "isTestable": false,
+                    "name": "SQL_Tags",
+                    "fields": [
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "SKU",
+                            "ordinal": 0,
+                            "type": "Number"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 150,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Tag",
+                            "ordinal": 1,
+                            "type": "Text"
+                        }
+                    ]
+                }
+            },
+            "0b0e9dd5-ed33-ee11-ba50-d4f5ef3de2b6": {
+                "issues": [],
+                "originID": "0b0e9dd5-ed33-ee11-ba50-d4f5ef3de2b6",
+                "originEID": "mc6lj9dkf1hyy8t0j6b-9h0m9k4m",
+                "data": {
+                    "categoryId": "{{mcpm#/entities/categories/2236432/data/id}}",
+                    "dataRetentionProperties": {
+                        "isDeleteAtEndOfRetentionPeriod": false,
+                        "isResetRetentionPeriodOnImport": false,
+                        "isRowBasedRetention": false,
+                        "rowBasedThreshold": 500000000
+                    },
+                    "description": "",
+                    "isFieldAdditionAllowed": true,
+                    "isFieldModificationAllowed": true,
+                    "isObjectDeletable": true,
+                    "isSendable": false,
+                    "isTestable": false,
+                    "name": "SQL_InvoiceDetail",
+                    "fields": [
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": true,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "InvoiceDetailID",
+                            "ordinal": 0,
+                            "type": "Number"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "InvoiceID",
+                            "ordinal": 1,
+                            "type": "Number"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "SKU",
+                            "ordinal": 2,
+                            "type": "Number"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "QTY",
+                            "ordinal": 3,
+                            "type": "Number"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 12,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Price",
+                            "ordinal": 4,
+                            "scale": 2,
+                            "type": "Decimal"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Returned",
+                            "ordinal": 5,
+                            "type": "Boolean"
+                        }
+                    ]
+                }
+            },
+            "85bd35df-e733-ee11-ba50-d4f5ef3de2b6": {
+                "issues": [],
+                "originID": "85bd35df-e733-ee11-ba50-d4f5ef3de2b6",
+                "originEID": "mc6lj9dkf1hyy8t0j6b-9h0m9k4m",
+                "data": {
+                    "categoryId": "{{mcpm#/entities/categories/2236432/data/id}}",
+                    "dataRetentionProperties": {
+                        "isDeleteAtEndOfRetentionPeriod": false,
+                        "isResetRetentionPeriodOnImport": false,
+                        "isRowBasedRetention": false,
+                        "rowBasedThreshold": 500000000
+                    },
+                    "description": "",
+                    "isFieldAdditionAllowed": true,
+                    "isFieldModificationAllowed": true,
+                    "isObjectDeletable": true,
+                    "isSendable": true,
+                    "isTestable": true,
+                    "name": "SQL_Customers",
+                    "sendableCustomObjectField": "CustomerID",
+                    "sendableSubscriberField": "_SubscriberKey",
+                    "fields": [
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": true,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 50,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "CustomerID",
+                            "ordinal": 0,
+                            "type": "Text"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 150,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Firstname",
+                            "ordinal": 1,
+                            "type": "Text"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 150,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Surname",
+                            "ordinal": 2,
+                            "type": "Text"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 254,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "EmailAddress",
+                            "ordinal": 3,
+                            "type": "EmailAddress"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "JoinDate",
+                            "ordinal": 4,
+                            "type": "Date"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Bookworm_Points",
+                            "ordinal": 5,
+                            "type": "Number"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 50,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Bookworm_Status",
+                            "ordinal": 6,
+                            "type": "Text"
+                        }
+                    ]
+                }
+            },
+            "48860fd6-e833-ee11-ba50-d4f5ef3de2b6": {
+                "issues": [],
+                "originID": "48860fd6-e833-ee11-ba50-d4f5ef3de2b6",
+                "originEID": "mc6lj9dkf1hyy8t0j6b-9h0m9k4m",
+                "data": {
+                    "categoryId": "{{mcpm#/entities/categories/2236432/data/id}}",
+                    "dataRetentionProperties": {
+                        "isDeleteAtEndOfRetentionPeriod": false,
+                        "isResetRetentionPeriodOnImport": false,
+                        "isRowBasedRetention": false,
+                        "rowBasedThreshold": 500000000
+                    },
+                    "description": "",
+                    "isFieldAdditionAllowed": true,
+                    "isFieldModificationAllowed": true,
+                    "isObjectDeletable": true,
+                    "isSendable": false,
+                    "isTestable": false,
+                    "name": "SQL_EventReminder",
+                    "fields": [
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": true,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 150,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "CustomerID",
+                            "ordinal": 0,
+                            "type": "Text"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 50,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Reminder_Channel",
+                            "ordinal": 1,
+                            "type": "Text"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Reminder_Date",
+                            "ordinal": 2,
+                            "type": "Date"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "length": 50,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Reminder_Status",
+                            "ordinal": 3,
+                            "type": "Text"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": true,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "Attending",
+                            "ordinal": 4,
+                            "type": "Boolean"
+                        }
+                    ]
+                }
+            },
+            "07844094-e833-ee11-ba50-d4f5ef3de2b6": {
+                "issues": [],
+                "originID": "07844094-e833-ee11-ba50-d4f5ef3de2b6",
+                "originEID": "mc6lj9dkf1hyy8t0j6b-9h0m9k4m",
+                "data": {
+                    "categoryId": "{{mcpm#/entities/categories/2236432/data/id}}",
+                    "dataRetentionProperties": {
+                        "isDeleteAtEndOfRetentionPeriod": false,
+                        "isResetRetentionPeriodOnImport": false,
+                        "isRowBasedRetention": false,
+                        "rowBasedThreshold": 500000000
+                    },
+                    "description": "",
+                    "isFieldAdditionAllowed": true,
+                    "isFieldModificationAllowed": true,
+                    "isObjectDeletable": true,
+                    "isSendable": false,
+                    "isTestable": false,
+                    "name": "SQL_BookAuthors",
+                    "fields": [
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "AuthorID",
+                            "ordinal": 0,
+                            "type": "Number"
+                        },
+                        {
+                            "description": "",
+                            "isHidden": false,
+                            "isInheritable": false,
+                            "isOverridable": false,
+                            "isNullable": false,
+                            "isPrimaryKey": false,
+                            "isReadOnly": false,
+                            "isTemplateField": false,
+                            "masktype": "None",
+                            "mustOverride": false,
+                            "name": "SKU",
+                            "ordinal": 1,
+                            "type": "Number"
+                        }
+                    ]
+                }
+            }
+        },
+        "dataExtractActivities": {},
+        "dataFilterDefinitions": {},
+        "dataFilters": {},
+        "eventDefinitions": {},
+        "fileTransferActivities": {},
+        "importActivities": {},
+        "journeys": {},
+        "journeyTemplates": {},
+        "landingPages": {},
+        "microsites": {},
+        "micrositePages": {},
+        "micrositePageVersions": {},
+        "primaryLandingPages": {},
+        "queryActivities": {},
+        "registeredCustomActivities": {},
+        "scriptActivities": {},
+        "sendDefinitions": {},
+        "sharedDataExtensions": {},
+        "siteMapVersions": {},
+        "subscriberLists": {},
+        "verificationActivities": {}
+    },
+    "selectedEntities": {
+        "assets": [],
+        "attributeGroups": [],
+        "automations": [],
+        "cloudPageCollections": [],
+        "dataExtensions": [
+            "0b0e9dd5-ed33-ee11-ba50-d4f5ef3de2b6",
+            "48860fd6-e833-ee11-ba50-d4f5ef3de2b6",
+            "25f82ab2-e833-ee11-ba50-d4f5ef3de2b6",
+            "918336a0-e833-ee11-ba50-d4f5ef3de2b6",
+            "07844094-e833-ee11-ba50-d4f5ef3de2b6",
+            "10a96358-e833-ee11-ba50-d4f5ef3de2b6",
+            "376c9304-e833-ee11-ba50-d4f5ef3de2b6",
+            "85bd35df-e733-ee11-ba50-d4f5ef3de2b6"
+        ],
+        "journeys": [],
+        "journeyTemplates": [],
+        "sharedDataExtensions": []
+    }
+}
