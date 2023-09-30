@@ -14,10 +14,15 @@ At the completion of this Introduction to SQL in Salesforce Marketing Cloud cour
 
 ## Course List
 1: Introduction to SQL: https://youtu.be/g0SZmP3Kl_I
+
 2: Syntax & Basic Queries: https://youtu.be/gabdJIzud1g
+
 3: Joins: https://youtu.be/TCXaLRrk_fE
+
 4: Group By: https://youtu.be/z2Aw-LTmjK8
+
 5: SQL Functions: https://youtu.be/qkjzwIsCy3I
+
 6: Case Statements: 
 
 
