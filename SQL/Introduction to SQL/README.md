@@ -23,7 +23,7 @@ At the completion of this Introduction to SQL in Salesforce Marketing Cloud cour
 
 5: SQL Functions: https://youtu.be/qkjzwIsCy3I
 
-6: Case Statements: 
+6: Case Statements: https://youtu.be/bP0dMTFFs-U
 
 
 ## Resources
