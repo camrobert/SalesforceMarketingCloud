@@ -1,6 +1,6 @@
-ID,Name,JoinDate,EmailAddress,,Active
-AMP-E03_118ba314-61e5-4ff6-860a-96b78857a91f,Alpha,11/11/2021,alpha@email.com,,1
-AMP-E03_f52f5ec8-992f-4c96-8e31-d0d698d23ab7,Bravo,1/10/2021,bravo@email.com,,1
-AMP-E03_936fc033-d407-4adb-a0de-f1444cf416a5,Charlie,10/09/2021,charlie@email.com,,1
-AMP-E03_a41234be-7a13-45aa-9f39-7965dc40b351,Delta,18/09/2021,delta@email.com,,1
-AMP-E03_ff648aea-929b-4928-aa3a-1887fc1c5b82,Echo,5/11/2021,echo@email.com,,1
+ID,Name,JoinDate,EmailAddress,Active
+AMP-E03_118ba314-61e5-4ff6-860a-96b78857a91f,Alpha,11/11/2021,alpha@email.com,1
+AMP-E03_f52f5ec8-992f-4c96-8e31-d0d698d23ab7,Bravo,01/10/2021,bravo@email.com,1
+AMP-E03_936fc033-d407-4adb-a0de-f1444cf416a5,Charlie,10/09/2021,charlie@email.com,1
+AMP-E03_a41234be-7a13-45aa-9f39-7965dc40b351,Delta,9/18/2021,delta@email.com,1
+AMP-E03_ff648aea-929b-4928-aa3a-1887fc1c5b82,Echo,05/11/2021,echo@email.com,1
